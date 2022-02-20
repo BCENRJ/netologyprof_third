@@ -36,7 +36,7 @@ def my_logger(path_n_file_name='my_project.log'):
     return log_main
 
 
-@my_logger()
+@my_logger('func.log')
 def a_plus_b(a, b):
     return a + b
 
